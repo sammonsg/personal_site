@@ -1,0 +1,8 @@
+# Secret configs (DB passwords, etc...)
+sammonsg/settings_secret.py
+
+# Compiled stuff
+*.pyc
+
+# IDE stuff
+.idea/
