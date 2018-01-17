@@ -5,10 +5,11 @@
     <meta charset="UTF-8">
 {#    <link rel="shortcut icon" type="image/png" href="{% static 'core/files/favicon.ico' %}"/>#}
     <title>Giacomo Sammons - {% block title %}{% endblock %}</title>
-{#    <title>Giacomo Sammons</title>#}
-    <link rel="stylesheet" type="text/css" href="{% static 'core/css/base.css' %}">
+{#    <link rel="stylesheet" href={% static 'library/css/bootstrap-grid.min.css' %}>#}
+    <link rel="stylesheet" type="text/css" href="{% static 'core/css/style.css' %}">
+</head>
 <body>
-{% block content %}{% endblock %}
-{#{% include "footer.html" %}#}
+    {% block content %}{% endblock %}
+   {% include "core/footer.html" %}
 </body>
 </html>
