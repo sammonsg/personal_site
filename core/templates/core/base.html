@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+{#    <link rel="shortcut icon" type="image/png" href="{% static 'core/files/favicon.ico' %}"/>#}
+    <title>Giacomo Sammons - {% block title %}{% endblock %}</title>
+{#    <title>Giacomo Sammons</title>#}
+    <link rel="stylesheet" type="text/css" href="{% static 'core/css/base.css' %}">
+<body>
+{% block content %}{% endblock %}
+{#{% include "footer.html" %}#}
+</body>
+</html>

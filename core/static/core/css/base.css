@@ -1,0 +1,21 @@
+body{
+    background-color: #9dffbb !important;
+    font-family: "Helvetica";
+    font-weight: lighter;
+    margin: 0px;
+}
+
+.block{
+    margin: 150px 20px 50px 20px;
+    text-align: center;
+}
+
+.greetings{
+    font-size: 500%;
+    margin: 0px;
+}
+
+.message{
+    text-align: center;
+    margin: 10px 300px 10px 300px;
+}
