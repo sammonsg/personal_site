@@ -7,9 +7,14 @@
     <title>Giacomo Sammons - {% block title %}{% endblock %}</title>
 {#    <link rel="stylesheet" href={% static 'library/css/bootstrap-grid.min.css' %}>#}
     <link rel="stylesheet" type="text/css" href="{% static 'core/css/style.css' %}">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Loved+by+the+King" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
 </head>
 <body>
-    {% block content %}{% endblock %}
-   {% include "core/footer.html" %}
+    <div id="doc">
+        {% block content %}{% endblock %}
+        {% include "core/footer.html" %}
+    </div>
 </body>
 </html>
