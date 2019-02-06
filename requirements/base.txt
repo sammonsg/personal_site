@@ -1,0 +1,4 @@
+django
+django-tinymce
+psycopg2
+pytz

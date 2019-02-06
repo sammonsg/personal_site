@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
 {#    <link rel="shortcut icon" type="image/png" href="{% static 'core/files/favicon.ico' %}"/>#}
     <title>Giacomo Sammons - {% block title %}{% endblock %}</title>
+    <link rel="shortcut icon" type="image/png" href="{% static 'core/files/favicon.png' %}"/>
 {#    <link rel="stylesheet" href={% static 'library/css/bootstrap-grid.min.css' %}>#}
     <link rel="stylesheet" type="text/css" href="{% static 'core/css/style.css' %}">
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC:700" rel="stylesheet">
@@ -13,8 +14,8 @@
 </head>
 <body>
     <div id="doc">
-        {% block content %}{% endblock %}
-        {% include "core/footer.html" %}
+        <div id="content"> {% block content %} {% endblock %} </div>
+        <section id="footer-box"> {% include "core/footer.html" %} </section>
     </div>
 </body>
 </html>

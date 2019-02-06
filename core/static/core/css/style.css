@@ -12,14 +12,35 @@ html, body{
     padding: 0;
 }
 
-#doc{
+#menu-bar{
+    width:200px;
+    background: red;
+    float: left;
+}
+
+#test-content{
+    float: right;
+    width:80%;
+    background: blue;
+}
+
+#welcome-page{
     min-height: 100%;
     flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: linear-gradient(to bottom right, deepskyblue, yellow);
+    background: linear-gradient(to bottom right, rgb(250, 114, 104), yellow);
 }
+
+
+
+/*#menu{*/
+    /*background-color: red;*/
+    /*height: 50px;*/
+    /*flex: 0;*/
+    /*flex-direction: column;*/
+/*}*/
 
 
 #welcome-title{
@@ -51,7 +72,7 @@ html, body{
     margin: 3px;
 }
 
-#networks{
+#footer-networks{
     padding: 4px 3%;
     text-align: right;
 }
